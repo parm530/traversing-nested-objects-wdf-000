@@ -1,7 +1,7 @@
 {
-  "name": "traversing-nested-objects",
+  "name": "exiting-loops-lab",
   "version": "0.1.0",
-  "description": "Practice looping through nested objects",
+  "description": "Practice using break, continue, and return to exit loops",
   "engines": {
     "node": "6.x",
     "npm": "3.x"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/learn-co-curriculum/traversing-nested-objects.git"
+    "url": "git+ssh://git@github.com/learn-co-curriculum/exiting-loops-lab.git"
   },
   "keywords": [
     "javascript",
@@ -22,13 +22,16 @@
   "author": "pletcher",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/learn-co-curriculum/traversing-nested-objects/issues"
+    "url": "https://github.com/learn-co-curriculum/exiting-loops-lab/issues"
   },
-  "homepage": "https://github.com/learn-co-curriculum/traversing-nested-objects#readme",
+  "homepage": "https://github.com/learn-co-curriculum/exiting-loops-lab#readme",
   "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
     "chai": "^3.5.0",
+    "expect": "^1.20.2",
     "jsdom": "^9.1.0",
-    "mocha": "^2.4.5",
+    "mocha": "^2.5.3",
     "mocha-jsdom": "^1.1.0",
     "mocha-multi": "^0.9.0"
   }
